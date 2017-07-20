@@ -2,9 +2,9 @@
 int main()
 {
     int i=0,k=0;
-    char letter,check[5]="aeiou";
+    char letter,check[10]="aeiouAEIOU";
     scanf("%c",&letter);
-    for(i=0;i<5;i++)
+    for(i=0;i<10;i++)
     {
         if(letter==check[i])
             {
